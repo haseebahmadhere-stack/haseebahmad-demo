@@ -1,3 +1,3 @@
 # HaseebAhmad-demo
-This is my first Git Repository.
-Author=Haseeb
+This is my first Git Repository.<br>
+Author-Haseeb
