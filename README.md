@@ -4,4 +4,4 @@ This is my first Git Repository.
 
 Author: Haseeb Ahmad
 
-Superior University
+Superior University(GoldCampus)
