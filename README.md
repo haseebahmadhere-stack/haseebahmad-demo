@@ -1,4 +1,7 @@
 # HaseebAhmad-demo
-This is my first Git Repository.<br>
-Author-Haseeb.<br>
-Superior (University)
+
+This is my first Git Repository.
+
+Author: Haseeb Ahmad
+
+Superior University
