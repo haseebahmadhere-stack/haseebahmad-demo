@@ -116,6 +116,10 @@ async function handleSendMessage() {
         // Add the bot's response to the conversation history
         conversationHistory.push({ role: "assistant", content: botResponse });
     } catch (error) {
+        // Remove the failed user message from history to prevent
+        // context divergence and unbounded history growth on errors
+        conversationHistory.pop();
+
         // Remove the typing indicator
         typingIndicator.remove();
 
