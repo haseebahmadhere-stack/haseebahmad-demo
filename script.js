@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = document.getElementById('form-message').value;
 
         if (name && email && message) {
-            alert('Thank you, ' + name + '! Your message has been sent successfully.');
+            alert('Thank you, ' + name + '! This form is a demo. Please email haseebahmadhere@gmail.com directly to get in touch.');
             contactForm.reset();
         }
     });
