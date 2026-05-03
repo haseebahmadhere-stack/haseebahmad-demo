@@ -199,7 +199,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function addMessage(text, sender) {
         const messageDiv = document.createElement('div');
         messageDiv.classList.add('chat-message', sender + '-message');
-        messageDiv.innerHTML = '<p>' + text + '</p>';
+        const p = document.createElement('p');
+        if (sender === 'user') {
+            p.textContent = text;
+        } else {
+            p.innerHTML = text;
+        }
+        messageDiv.appendChild(p);
         chatbotMessages.appendChild(messageDiv);
         chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
     }
